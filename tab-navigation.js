@@ -1,4 +1,4 @@
-let list = document.querySelectorAll('list');
+let list = document.querySelectorAll('.list');
 function activeLink(){
     list.forEach((item) =>
     item.classList.remove('active'));
@@ -6,4 +6,4 @@ function activeLink(){
 }
 
 list.forEach((item)=>
-item.addEventListener('click, activeLink'));
+item.addEventListener('click', activeLink));
